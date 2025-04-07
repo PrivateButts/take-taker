@@ -1,0 +1,15 @@
+[project]
+name = "take-taker"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Randy Butts", email = "randybuttsii@gmail.com"},
+]
+dependencies = ["notion-client>=2.3.0", "python-dotenv>=1.1.0", "python-frontmatter>=1.1.0", "python-slugify>=8.0.4"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
